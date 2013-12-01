@@ -10,8 +10,11 @@ Maintainer:          will.t.murphy@gmail.com
 Build-Type:          Simple
 Cabal-Version:       >= 1.2
 
+
 library
   GHC-options:     -Wall -fno-warn-orphans -fno-warn-name-shadowing
   Exposed-Modules: TextPlot
   Build-Depends:   base >= 2.0 && < 5
                  , array
+  Extensions: FlexibleInstances
+  
